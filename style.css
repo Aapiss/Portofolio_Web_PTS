@@ -715,3 +715,41 @@ footer {
         transform: translateY(0);
     }
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    .navbar {
+        display: flex;
+        margin-top: 24px;
+        justify-content: center;
+        width: 100%;
+    }
+    .navbar a {
+        font-size: 16px;
+        margin-right: 15px;
+    }
+    .image-container {
+        display: none;
+    }
+    .home-content, .home-content p {
+        width: 100%;
+    }
+    .home-content h3 {
+        font-size: 18px;
+    }
+    .home-content h1 {
+        font-size: 32px;
+    }
+    .home-content p {
+        font-size: 14px;
+    }
+    .btn {
+        width: 10rem;
+        margin-top: 10px;
+    }
+}
